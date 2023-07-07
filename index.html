@@ -9,12 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
 </head>
 <body>
-    <!-- part1 start-->
+    <!-- part1 begin-->
     <section class="container-fluid part1">
-        <div class="overlay"></div>
+        <div class="overlay">
         <div class="container">
+            <!--navigation begin-->
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
@@ -48,9 +50,46 @@
                   </div>
                 </div>
               </nav>
+              <!--navigation end-->
+              <div class="row">
+                <div class="col-md-6 text-white p-0 py-4">
+                    <h2 class="display-4">TYPES OF <br> NEOCARIDINA SHRIMP</h2>
+                    <p>Interested in adding a Neocaridina Shrimp to your aquarium? Some live shrimp for freshwater tanks we provide include:<br>Cherry Shrimp<br>Blue Dream Shrimp<br>Orange Pumpkin Shrimp<br>Green Jade Shrimp</p>
+                </div>
+                <div class="col-md-4 offset-md-2 bg-white right-content">
+                    <form action="" class="form-header">
+                        <h3>Visit Us</h3>
+                        <div class="form-group">
+                          <label for="">Your Name</label>
+                          <input type="text" class="form-control" placeholder="What is your name?">
+                        </div>
+                        <div class="d-flex">
+                          <div class="form-group mr-2 flex-grow-1">
+                            <label for="">PICK-UP DATE</label>
+                            <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
+                          </div>
+                          <div class="form-group ml-2 flex-grow-1">
+                            <label for="">DROP-OFF DATE</label>
+                            <input type="text" class="form-control" id="book_off_date" placeholder="Date">
+                          </div>
+                        </div>
+                        <div class="form-group mb-3">
+                          <label for="">MEETING TIME</label>
+                          <input type="text" class="form-control" id="tarih3">
+                        </div>
+                        <div class="form-group">
+                          <input type="submit" class="btn btn-primary w-100" value="Search Vehicle">
+                        </div>
+                      </form>
+                </div>
+              </div>
         </div>
+    </div>
     </section>
+    <!--part1 end-->
     <script src="jquery.min.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

@@ -37,7 +37,7 @@ body{
 }
 
 .part1 .navbar li{
-        margin-left:6px;
+    margin-left:6px;
 }
 
 .part1 .navbar li a{
@@ -45,11 +45,54 @@ body{
     color:white !important;
     font-weight: 300;
     letter-spacing: 0.6px;
-    transition: 0.2s;
+    transition: 0.2 s;
 }
 
 .part1 .navbar .navbar-nav .nav-item .active,
 .part1 .navbar .navbar-nav a:hover{
     color:#f7b71d !important;
-
 }
+
+.part1 .container .row{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.part1 .right-content{
+    padding: 25px;
+    border-radius: 3px;
+}
+
+.part1 .right-content h3{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.part1 .right-content label{
+    color:black;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.part1 .right-content input[type="submit"]{
+    background-color:#f7b71d !important ;
+    border:1px solid #f7b71d !important;
+    padding: 15px 0;
+}
+@media only screen and (max-width:768px) {
+    .part1{
+        height: 850px;
+    }
+    h2{
+        margin-top: 65px;
+    }
+}
+
+.part1 .right-content input[type="text"]{
+    font-size: 12px;
+}
+
