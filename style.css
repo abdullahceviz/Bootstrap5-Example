@@ -96,3 +96,62 @@ body{
     font-size: 12px;
 }
 
+.part2{
+    margin: 40px auto;
+}
+
+.part2 label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.part2 select{
+    font-size: 13;
+}
+
+.part2 .btn.btn-primary{
+    margin-top: 30px;
+    background-color: #f7b71d;
+    border: 1px solid #f7b71d;
+}
+
+.part3{
+    margin-top: 50px;
+    text-align: center;
+}
+.part3 p{
+    color: #f7b71d;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.part3 h3{
+    font-size: 40;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.part3 i{
+    font-size: 25px;
+    color: #f7b71d;
+}
+
+.part3 h4{
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+
+.part3 .lbl{
+    text-align: left;
+}
+.part3 .lbl p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #454545;
+    margin-top: 30px;
+    text-align: left;
+}
