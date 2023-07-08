@@ -155,3 +155,72 @@ body{
     margin-top: 30px;
     text-align: left;
 }
+
+.part4{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.part4 p{
+    color: #f7b71d;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.part4 h3{
+    font-size: 40;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.part4 .label{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ababab;
+    padding-bottom: 20px;
+}
+.part4 .label .img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-size: cover !important;
+    background-position: center center !important ;
+}
+
+.part4 .label .price{
+    background: white;
+    font-weight: 700;
+}
+
+.part4 .label .price span{
+    font-size: 20px;
+    padding: 10px 30px;
+    color: #f7b71d;
+}
+
+.part4 .label h5{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000;
+}
+
+.part4 .label p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.part4 .label .buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.part4 .label .buttons .btn{
+    width: 45%;
+    color: #000;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.part4 .label .buttons .btn:hover{
+    background: #f7b71d;
+    color: white;
+    font-weight: 600;
+}
