@@ -283,3 +283,51 @@ body{
         margin-bottom: 20px;
     }
 }
+
+.part6 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.part6 p{
+    color: #f7b71d;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.part6 h2{
+    font-size: 40;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.part6 .card{
+    text-align: center;
+    height: 100%;
+}
+
+.part6 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.part6 .card p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 500;
+    color: #666;
+}
+.part6 .card h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #f7b71d;
+    }
+
+.part6 .card span{
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 600;
+}
