@@ -224,3 +224,62 @@ body{
     color: white;
     font-weight: 600;
 }
+
+.part5{
+    height: 100vh;
+    background: url("images/caridina-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.part5 .container{
+    z-index: 999;
+    position: absolute;
+    color:white;
+    text-align: center;
+}
+
+.part5 p{
+    margin-top: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+.part5 h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.part5 .img{
+    width: 85px;
+    height: 85px;
+    border:2px solid #f7b71d;
+    border-radius: 100%;
+    font-size: 30px;
+    padding: 15px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.part5 .content h3{
+    color: #fff;
+}
+
+.part5 .content p{
+    color:rgba(255, 255, 255, 255, 0.6) !important;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px;
+}
+@media only screen and (max-width:768px) {
+    .part5{
+        height: 1350px;
+    }
+    .part5 .content{
+        margin-bottom: 20px;
+    }
+}
