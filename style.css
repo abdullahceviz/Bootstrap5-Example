@@ -331,3 +331,45 @@ body{
     color: #ccc;
     font-weight: 600;
 }
+
+.part7{
+    margin-top: 100px;
+}
+
+.part7 .img{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    
+}
+
+.part7 .caption p{
+    font-size: 14px;
+    color: #f7b71d;
+    font-weight: 600;
+}
+.part7 article{
+    padding: 30px;
+}
+.part7 .caption h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.part7 article p.content{
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+}
+
+.part7 article .btn{
+    background-color: #f7b71d;
+    border: none;
+    color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .part7 .img{
+        height: 850px;
+    }
+}
